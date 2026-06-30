@@ -1,0 +1,18 @@
+{
+  "name": "cruise-product-agent-marketplace",
+  "owner": {
+    "name": "craftwave"
+  },
+  "metadata": {
+    "description": "cruise-product-agent 的 Claude Code 插件市场，由CruiseSkillBridge 发布。",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "cruise-product-agent",
+      "source": "./plugins/cruise-product-agent",
+      "description": "智能助手为您提供邮轮产品的快速查询服务，随时随地获取信息。",
+      "version": "0.1.0"
+    }
+  ]
+}
